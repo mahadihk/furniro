@@ -280,3 +280,141 @@ body{
     background-position: start;
     border-radius: 1rem;
 }
+
+/* Products Area */
+
+.products-area{
+    padding: 2rem;
+    background: #fff;
+}
+
+.products-area .texts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-area .texts .title{
+    font-family: "Poppins", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.products{
+    width: 80%;
+    margin: 1rem auto;
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+ .product{
+    width: 285px;
+    height: 466px;
+    overflow: hidden;
+}
+
+.product .image{
+    width: 285px;
+    height: 301px;
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.75rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.discount{
+    background-color: #eb6565;
+    color: #ffffff;
+} 
+
+.new{
+    background-color: #2EC1AC;
+    color: #ffffff;
+} 
+
+.products .details{
+    font-family: "Poppins", sans-serif;
+    padding: 1rem;
+    background-color: #f4f5f7;
+}
+
+.products .details h2{
+    font-size: 1.5rem;
+}
+
+.products .details .description{
+    font-size: 1rem;
+    color: #898989;
+}
+
+.new-price{
+    color: #3a3a3a;
+    font-size: 1.25rem;
+}
+
+.old-price{
+    font-size: 1rem;
+    color: #b0b0b0;
+    text-decoration: line-through;
+}
+
+.product:nth-child(1) .image{
+    background: url('/images/products/image-1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product:nth-child(2) .image{
+    background: url('/images/products/image-2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product:nth-child(3) .image{
+    background: url('/images/products/image-3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product:nth-child(4) .image{
+    background: url('/images/products/image-4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product:nth-child(5) .image{
+    background: url('/images/products/image-5.png');
+    background-size: cover;
+    background-position: top;
+}
+
+.product:nth-child(6) .image{
+    background: url('/images/products/image-6.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product:nth-child(7) .image{
+    background: url('/images/products/image-7.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.product:nth-child(8) .image{
+    background: url('/images/products/image-8.png');
+    background-size: cover;
+    background-position: center;
+}
