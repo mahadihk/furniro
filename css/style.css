@@ -24,7 +24,8 @@ html{
 
 
 body{
-    background-color: #000000;
+    background-color: #000000;    
+    font-family: "Poppins", sans-serif;
 }
 
 /* Header Section */
@@ -70,7 +71,6 @@ body{
     position: relative;
     color: #001616;
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -142,20 +142,17 @@ body{
 
 .hero-new-arrival{
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
     color: #333;
     font-weight: 600;
 }
 
 .hero-title{
-    font-family: "Poppins", sans-serif;
     font-size: 3.25rem;
     color: #B88E2F;
 }
 
 .hero-para{
     font-size: 1.125;
-    font-family: "Poppins", sans-serif;
     color: #4F4F4F;
 }
 
@@ -168,7 +165,6 @@ body{
     color: #fff;
     border: 2px solid #B88E2F;
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -224,7 +220,6 @@ body{
 }
 
 .texts .title{    
-    font-family: "Poppins", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: #333;
@@ -232,7 +227,6 @@ body{
 
 .texts .subtitle{
     color: #666;    
-    font-family: "Poppins", sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
 }
@@ -249,7 +243,6 @@ body{
     height: 480px;
     text-align: center;
     font-size: .75rem;
-    font-family: "Poppins", sans-serif;
 }
 
 .options .caption{
@@ -295,7 +288,6 @@ body{
 }
 
 .products-area .texts .title{
-    font-family: "Poppins", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     color: #333;
@@ -328,7 +320,6 @@ body{
     top: 10px;
     width: 40px;
     height: 40px;
-    font-family: "Poppins", sans-serif;
     font-size: 0.75rem;
     border-radius: 50%;
     display: flex;
@@ -348,7 +339,6 @@ body{
 } 
 
 .products .details{
-    font-family: "Poppins", sans-serif;
     padding: 1rem;
     background-color: #f4f5f7;
     box-sizing: border-box;
@@ -405,7 +395,6 @@ body{
     border: 1px solid #f3f2f2;
     text-decoration: none;
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
 }
 
 .btn-cart:hover{
@@ -415,7 +404,6 @@ body{
 .overlay-options{
     margin: 1rem;
     color: #ffffff;
-    font-family: "Poppins", sans-serif;
 }
 
 .icon-overlay{
@@ -484,7 +472,6 @@ body{
     border: 1px solid #B88E2F;
     text-decoration: none;
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
 }
 
 .show-more:hover{    
@@ -517,13 +504,11 @@ body{
 
 .info h2{    
     font-size: 2rem;
-    font-family: "Poppins", sans-serif;
     margin: 0.5rem 0;
 }
 
 .info p{    
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
     color: #616161;
     margin: 0.5rem 0;
 }
@@ -535,7 +520,6 @@ body{
     color: #ffffff;
     text-decoration: none;
     font-size: 1rem;
-    font-family: "Poppins", sans-serif;
 }
 
 .room-1{
@@ -553,7 +537,6 @@ body{
     left: 30px;
     padding: 1.5rem;
     background: rgba(247, 244, 244, 0.651);
-    font-family: "Poppins", sans-serif;
 }
 
 .text-room h3{
@@ -650,7 +633,6 @@ body{
 }
 
 .gallery-header p {
-    font-family: "Poppins", sans-serif;
     font-size: 1em;
     color: #666;
     margin: 0 0 5px 0;
@@ -658,7 +640,6 @@ body{
 }
 
 .gallery-header h2 {
-    font-family: "Poppins", sans-serif;
     font-size: 2em;
     color: #333;
     margin: 0;
@@ -760,4 +741,107 @@ body{
      .gallery-header {
         margin-bottom: 20px;
     }
+}
+
+
+/* Footer Area */
+
+.footer-area{
+    padding: 2rem;
+    background: #ffffff;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.top-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    border-bottom: 2px solid #d9d9d9;
+}
+
+.top-footer .brand
+{
+    padding: 3rem 0;
+}
+
+.top-footer .brand h2{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.top-footer .brand p{
+    font-size: 1rem;
+    color: #9f9f9f;
+}
+
+.top-footer .links,
+.top-footer .pages{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    padding-left: 15px;
+}
+
+.top-footer .links ol,
+.top-footer .pages ol {
+    margin: 0;
+    padding: 0;
+}
+
+.top-footer .links ol li,
+.top-footer .pages ol li {
+    list-style: none;
+    margin: 0.75rem 0;
+}
+
+
+.top-footer .links ol li a,
+.top-footer .pages ol li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+
+.top-footer .links ol li:nth-child(1) a,
+.top-footer .pages ol li:nth-child(1) a,
+.top-footer .newsletter p{
+    color: #9d9d9d;
+}
+
+
+.form-field{
+    padding-top: 5px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 5px;
+}
+
+.top-footer .newsletter input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    color: #666;
+    border-bottom: 2px solid #d9d9d9 ;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+
+.top-footer .newsletter button{
+    border: none;
+    width: 100px;
+    height: 50px;
+    background-color: transparent;
+    border-bottom: 2px solid #d9d9d9 ;
+}
+
+.credit{
+    color: #001616;
+    font-size: 1rem;
+    padding: 2rem 0;
 }
