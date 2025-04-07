@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment-01 | Cart</title>
+    <title>Assignment-01 | Contact</title>
     <!-- Meta Tags -->
     <meta name="title" content="Dropdown Navigation Bar">
     <meta name="description" content="Assignment 01 from CCP MERN Batch 04">
@@ -77,55 +77,78 @@
     <!-- Page Header area Start -->
     <div class="page-header">
         <div class="page-title">
-            <h1 class="title">Cart</h1>
-            <h4 class="trails">Home <i class="fa-solid fa-chevron-right"></i> Cart</h4>
+            <h1 class="title">Contact</h1>
+            <h4 class="trails">Home <i class="fa-solid fa-chevron-right"></i> Contact</h4>
         </div>
     </div>
     <!-- Page Header area End -->
 
-    <!-- Cart Section Start -->
-    <section class="cart-area">
-        <div class="cart">
-            <table>
-                <tr>
-                    <th>Product</th>
-                    <th>Price</th>
-                    <th>Quality</th>
-                    <th>Subtotal</th>
-                    <th>Option</th>
-                </tr>
-                <tr>
-                    <td colspan="5" id="blank"> </td>
-                </tr>
-                <tr class="details">
-                    <td class="p-img"><img src="./images/sofa.png" alt=""></td>
-                    <td>Asgaard sofa</td>
-                    <td>Rs. 250,000.00</td>
-                    <td><span class="q">1</span></td>
-                    <td><i class="fa-solid fa-trash-can"></i></td>
-                </tr>
-            </table>
+    <!-- Contact Section Start -->
+    <section class="contact-area">
+        <div class="text">
+            <h2>Get In Touch With Us</h2>
+            <p>
+                For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. <br> 
+                Our Staff Always Be There To Help You Out. Do Not Hesitate!
+            </p>
         </div>
+        
+        <div class="contact-details">
+            <div class="address">
 
-        <div class="total-cart">
-            <h2>Cart Total</h2>
+                <div class="location">
+                    <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
+                    <p>
+                        236 5th SE Avenue, New York NY10000, <br> 
+                        United States
+                    </p>
+                </div>
 
-            <p>
-                <span class="em">subtotal</span> Rs.250,000.00
-            </p>
+                <div class="phone">
+                    <h3><i class="fa-solid fa-phone"></i> Phone</h3>
+                    <p>Mobile: +(84) 546-6789</p>
+                    <p>Hotline: +(84) 456-6789</p>
 
-            <p>
-                <span class="em">total</span> <span class="grand-total">Rs.250,000.00</span>
-            </p>
-
-            <div>
-                <a href="#" class="btn">Checkout</a>
+                </div>                
+                
+                <div class="time">
+                    <h3><i class="fa-solid fa-clock"></i> Working Time</h3>
+                    <p>Monday-Friday: 9:00 - 22:00</p>
+                    <p>Saturday-Sunday: 9:00 - 21:00</p>
+                </div>
+    
             </div>
-            
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <div class="input-field">
+                        <label for="name">Your Name</label><br>
+                        <input type="text" id="name" placeholder="John Doe">
+                    </div>
+    
+                    <div class="input-field">
+                        <label for="email">Email Address</label><br>
+                        <input type="email" id="email" placeholder="abc@xyz.com">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="sub">Subject</label><br>
+                        <input type="text" id="sub" placeholder="This is an Optional">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="msg">Message</label><br>
+                        <textarea id="msg" placeholder="Hi! i'd like to ask about"></textarea>
+                    </div>
+
+
+                    <button>submit</button>
+                    
+                </form>
+            </div>
         </div>
 
     </section>
-    <!-- Cart Section End -->
+    <!-- Contact Section End -->
 
     <!-- Offering Section Start -->
     <section class="offering">
