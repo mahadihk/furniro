@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-01 | Shop</title>
+    <!-- Meta Tags -->
+    <meta name="title" content="Dropdown Navigation Bar">
+    <meta name="description" content="Assignment 01 from CCP MERN Batch 04">
+    <meta name="keywords" content="Dropdown menu, Dropdown Navigation, Dropdown Navbar">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="revisit-after" content="3 days">
+    <meta name="author" content="Mahadi Hasan">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Icon Pack (FontAwesome) -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet" />    
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+        <div class="header">
+
+            <!-- Checkbox for toggling Navbar -->
+            <input type="checkbox" id="chk">
+
+            <!-- Menu icon -->
+            <label for="chk" class="chkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <!-- Site Identity (Brand Logo) -->
+            <div class="header-logo">
+                <img src="./images/favicon.png" alt=""> <span class="brand-name">Furniro</span>
+            </div>
+
+            <!-- Navigation Bar -->
+            <div class="navbar">              
+
+                <!-- Navbar (Menu) -->
+                <div class="header-menu">
+                    <nav>
+                        <ol>
+                            <li class="nav-item"><a href="#hero" class="nav-link">Home</a></li>                        
+                            <li class="nav-item"><a href="#testimonial" class="nav-link">Shop</a></li>
+                            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                            <li class="nav-item"><a href="#cta" class="nav-link">Contact</a></li>
+                        </ol>
+                    </nav>
+                </div>
+
+                <!-- User Options -->
+                <div class="user-option">
+                    <i class="feather" data-feather="user"></i>
+                    <i class="feather" data-feather="search"></i>
+                    <i class="feather" data-feather="heart"></i>
+                    <i class="feather" data-feather="shopping-cart"></i>
+                </div>
+            </div>            
+
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Page Header area Start -->
+    <div class="page-header">
+        <div class="page-title">
+            <h1 class="title">Cart</h1>
+            <h4 class="trails">Home <i class="fa-solid fa-chevron-right"></i> Cart</h4>
+        </div>
+    </div>
+    <!-- Page Header area End -->
+
+    <!-- Cart Section Start -->
+    <section class="cart-area">
+        <div class="cart">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th>Quality</th>
+                    <th>Subtotal</th>
+                    <th>Option</th>
+                </tr>
+                <tr>
+                    <td colspan="5" id="blank"> </td>
+                </tr>
+                <tr class="details">
+                    <td class="p-img"><img src="./images/sofa.png" alt=""></td>
+                    <td>Asgaard sofa</td>
+                    <td>Rs. 250,000.00</td>
+                    <td><span class="q">1</span></td>
+                    <td><i class="fa-solid fa-trash-can"></i></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="total-cart">
+            <h2>Cart Total</h2>
+
+            <p>
+                <span class="em">subtotal</span> Rs.250,000.00
+            </p>
+
+            <p>
+                <span class="em">total</span> <span class="grand-total">Rs.250,000.00</span>
+            </p>
+            
+            <div>
+                <a href="#" class="btn">Checkout</a>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- Cart Section End -->
+
+    <!-- Offering Section Start -->
+    <section class="offering">
+        <div class="quality">
+            <div class="icon">
+                <i class="fa-solid fa-trophy"></i>
+            </div>
+            <div class="text">
+                <h3>High Quality</h3>
+                <h4>crafted from top materials</h4>
+            </div>
+        </div>
+        <div class="warranty">
+            <div class="icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="text">
+                <h3>Warranty Protection</h3>
+                <h4>Over 2 years</h4>
+            </div>
+        </div>
+        <div class="shipping">
+            <div class="icon">
+                <i class="fa-solid fa-truck-fast"></i>
+            </div>
+            <div class="text">
+                <h3>Free Shipping</h3>
+                <h4>Order over 150 $</h4>
+            </div>
+        </div>
+        <div class="support">
+            <div class="icon">
+                <i class="fa-solid fa-headset"></i>
+            </div>
+            <div class="text">
+                <h3>24 / 7 Support</h3>
+                <h4>Dedicated support</h4>
+            </div>
+        </div>
+    </section>
+    <!-- Offering Section Start -->
+
+
+    <!-- Footer Section Start -->
+
+    <section class="footer-area">
+        <footer>
+            <div class="top-footer">
+                <div class="brand">
+                    <h2>Furniro.</h2>
+                    <p>
+                        400 University Drive Suite 200 Coral Gables, <br>
+                        FL 33134 USA
+                    </p>
+                </div>
+                <div class="links">
+                    <ol>                        
+                        <li><a href="#">Links</a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ol>
+                </div>
+                <div class="pages">
+                    <ol>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy Policies</a></li>
+                    </ol>
+                </div>
+                <div class="newsletter">
+                    <p>Newsletter</p>
+
+                    <form action="#" method="post">
+                        <div class="form-field">
+                            <input type="text" placeholder="Enter Your Email Address">
+                            <button type="submit">SUBSCRIBE</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+            <div class="credit">
+                <i class="fa-regular fa-copyright"></i> 2023 furniro. All rights reverved 
+            </div>
+        </footer>
+    </section>
+
+    <!-- Footer Section Ends -->
+    
+
+    <!-- Iconpack: Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Custom Script -->
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
