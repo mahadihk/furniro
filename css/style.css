@@ -1312,3 +1312,141 @@ footer{
     margin: 2rem 0;
 }
 
+/* Checkout Page */
+.checkout-area{
+    background-color: #fff;
+    min-height: 70vh;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-details{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+.checkout-details .product-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 1rem;
+    gap: 1.5rem;
+}
+
+.checkout-form{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field-split
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-field-split  #fname, 
+.input-field-split #lname{
+    width: 200px;
+    padding: 1rem;
+}
+
+.checkout-form input,
+.checkout-form select{
+    width: 400px;
+    border: 1px solid #5e5e5e;
+    border-radius: 5px;
+    outline: none;
+    height: 50px;
+    margin-top: 3px;
+}
+
+.checkout-form .input-field{
+    margin-top: 1rem;
+}
+
+
+.checkout-form .input-field input,
+.checkout-form .input-field select{    
+    padding: 1rem;
+}
+
+.checkout-form .input-field select{
+    height: 80px;
+}
+
+.product-cart .btn{
+    border: 1px solid #001616;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #001616;
+    text-decoration: none;
+    margin: 2rem 0;
+}
+
+.product-cart .btn:hover{
+    background-color: #001616;
+    color: #ffffff;
+}
+
+.product-cart table{
+    border: none;
+    border-collapse: collapse;
+    margin-top: 5rem;
+    width: 70%;
+}
+
+.product-cart table th{
+    font-size: 1.50rem;
+    font-weight: 500;
+}
+
+.product-cart td{
+    height: 50px;
+    text-align: right;
+}
+
+.product-cart td.ta-l{
+    text-align: left;
+}
+
+.product-cart #gtotal{
+    font-size: 1.25rem;
+    color: #B88E2F;
+}
+
+.product-cart .hr-linr{
+    height: 2px;
+    width: 90%;
+    background-color: rgba(51, 51, 51, 0.486);
+}
+
+.product-cart input{
+    margin-right: 3px;
+}
+
+.product-cart label{
+    float: left;
+}
+
+
+.radio-option {
+    display: flex;        
+    align-items: center;   
+    margin-bottom: 10px; 
+}
+
+.radio-option input[type="radio"] {
+    margin-right: 8px;    
+}

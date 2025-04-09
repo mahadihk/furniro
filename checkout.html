@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact | Furniro</title>
+    <title>Checkout | Furniro</title>
     <!-- Meta Tags -->
-    <meta name="title" content="Contact Us">
-    <meta name="description" content="Contact us at Furniro">
-    <meta name="keywords" content="Contact, Contact Information">
+    <meta name="title" content="Checkout Furniro">
+    <meta name="description" content="Assignment 01 from CCP MERN Batch 04">
+    <meta name="keywords" content="Checkout, Product Buy">
     <meta name="robots" content="index, follow">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="revisit-after" content="3 days">
@@ -77,78 +77,150 @@
     <!-- Page Header area Start -->
     <div class="page-header">
         <div class="page-title">
-            <h1 class="title">Contact</h1>
-            <h4 class="trails">Home <i class="fa-solid fa-chevron-right"></i> Contact</h4>
+            <h1 class="title">Checkout</h1>
+            <h4 class="trails">Home <i class="fa-solid fa-chevron-right"></i> Checkout</h4>
         </div>
     </div>
     <!-- Page Header area End -->
 
-    <!-- Contact Section Start -->
-    <section class="contact-area">
-        <div class="text">
-            <h2>Get In Touch With Us</h2>
-            <p>
-                For More Information About Our Product & Services. Please Feel Free To Drop Us An Email. <br> 
-                Our Staff Always Be There To Help You Out. Do Not Hesitate!
-            </p>
-        </div>
-        
-        <div class="contact-details">
-            <div class="address">
-
-                <div class="location">
-                    <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
-                    <p>
-                        236 5th SE Avenue, New York NY10000, <br> 
-                        United States
-                    </p>
-                </div>
-
-                <div class="phone">
-                    <h3><i class="fa-solid fa-phone"></i> Phone</h3>
-                    <p>Mobile: +(84) 546-6789</p>
-                    <p>Hotline: +(84) 456-6789</p>
-
-                </div>                
-                
-                <div class="time">
-                    <h3><i class="fa-solid fa-clock"></i> Working Time</h3>
-                    <p>Monday-Friday: 9:00 - 22:00</p>
-                    <p>Saturday-Sunday: 9:00 - 21:00</p>
-                </div>
-    
-            </div>
-            <div class="contact-form">
+    <!-- Checkout Section Start -->
+    <section class="checkout-area">     
+        <div class="checkout-details">
+            
+            <div class="checkout-form">
                 <form action="#" method="post">
-                    <div class="input-field">
-                        <label for="name">Your Name</label><br>
-                        <input type="text" id="name" placeholder="John Doe">
+                    <div class="input-field-split">
+                        <div>
+                            <label for="name">First Name</label><br>
+                            <input type="text" id="fname" placeholder="John Doe">
+                        </div>
+                        <div>
+                            <label for="name">Last Name</label><br>
+                            <input type="text" id="lname" placeholder="John Doe">
+                        </div>
                     </div>
     
                     <div class="input-field">
-                        <label for="email">Email Address</label><br>
-                        <input type="email" id="email" placeholder="abc@xyz.com">
+                        <label for="company">Company name (Optional)</label><br>
+                        <input type="text" id="company" placeholder="abc Inc">
                     </div>
 
                     <div class="input-field">
-                        <label for="sub">Subject</label><br>
-                        <input type="text" id="sub" placeholder="This is an Optional">
+                        <label for="country">Country</label><br>
+                        <select name="country" id="country">
+                            <option value="BD" selected>Bangladesh</option>
+                            <option value="ARG">Argentina</option>
+                            <option value="ENG">England</option>
+                            <option value="CHN">China</option>
+                            <option value="USA">U.S.A</option>
+                            <option value="MEX">Mexico</option>
+                            <option value="JP">Japan</option>
+                            <option value="SPA">Spain</option>
+                            <option value="FRA">France</option>
+                        </select>
                     </div>
 
                     <div class="input-field">
-                        <label for="msg">Message</label><br>
-                        <textarea id="msg" placeholder="Hi! i'd like to ask about"></textarea>
+                        <label for="street">Street</label><br>
+                        <input type="text" id="street" placeholder="Road no 03">
                     </div>
 
+                    <div class="input-field">
+                        <label for="town">Town</label><br>
+                        <input type="text" id="street" placeholder="Mirpur - 02">
+                    </div>
 
-                    <button>submit</button>
+                    <div class="input-field">
+                        <label for="city">City</label><br>
+                        <input type="text" id="city" placeholder="Dhaka">
+                    </div>
+
+                    <div class="input-field">
+                        <label for="prov">Province</label><br>
+                        <select name="prov" id="prov">
+                            <option value="DH" selected>Dhala</option>
+                            <option value="CTG">Chittagong</option>
+                            <option value="RAJ">Rajshahi</option>
+                            <option value="RAN">Rangpur</option>
+                            <option value="BAR">Barisal</option>
+                            <option value="SYL">Sylhet</option>
+                            <option value="MYM">Mymensingh </option>
+                            <option value="KHU">Khulna</option>
+                        </select>
+                    </div>
                     
+                    <div class="input-field">
+                        <label for="zip">ZIP Code</label><br>
+                        <input type="text" id="zip" placeholder="1202">
+                    </div>
+
+                    
+                    <div class="input-field">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" placeholder="John@example.com">
+                    </div>
+
+                    
+                    <div class="input-field">
+                        <input type="text" id="additional" placeholder="Additional Information">
+                    </div>
+            </div>
+
+            <div class="product-cart">
+
+                    <table>
+                        <tr>
+                            <th class="ta-l">Product</th>
+                            <th>Subtotal</th>
+                        </tr>
+                        <tr>
+                            <td class="ta-l">Asgard Sofa x 1</td>
+                            <td>Rs. 250,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="ta-l">Subtotal</td>
+                            <td>Rs. 250,000.00</td>
+                        </tr>
+                        <tr>
+                            <td class="ta-l">Total</td>
+                            <td id="gtotal">Rs. 250,000.00</td>
+                        </tr>
+                    </table>
+
+                    <div class="hr-linr"></div>
+
+                    <div class="radio-option">
+                        <input type="radio" name="payment" id="direct-bank" checked>
+                        <label for="direct-bank">Direct Bank Transfer</label>
+                    </div>
+                    
+                    <p id="payment-details">
+                        Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order will not be shipped until the funds have cleared in our account.
+                    </p>
+                    
+                    <div class="radio-option">
+                        <input type="radio" name="payment" id="card">
+                        <label for="card">Credit Card</label>
+                    </div>
+                      
+                    <div class="radio-option">
+                        <input type="radio" name="payment" id="cod">
+                        <label for="cod">Cash On Delivery</label>
+                    </div>
+
+                    <p id="disclaimer">
+                        Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our privacy policy.
+                    </p>
+
+                    <a href="#" class="btn">Place Order</a>
+
                 </form>
             </div>
+
         </div>
 
     </section>
-    <!-- Contact Section End -->
+    <!-- Checkout Section End -->
 
     <!-- Offering Section Start -->
     <section class="offering">
